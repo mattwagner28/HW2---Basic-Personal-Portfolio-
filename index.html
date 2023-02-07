@@ -8,22 +8,20 @@
     <title>Matthew Wagner Portfolio</title>
 </head>
 
-<body>
+<body id="top">
 
     <!-- Header with nav bar at the top of the page-->
-
-    <header>
-        <h1 id="header">matthew wagner | developer</h1>
-
-        <nav>
-            <ul>
-                <li><a href="#header">home</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#about">about</a></li>
-                <li>contact</li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <h1>matthew wagner | developer</h1>  
+            <nav>
+                <ul>
+                    <li><a href="#top">home</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
     <main>
 
@@ -34,13 +32,13 @@
             <span id="slide-3"></span>
 
                  <div class="image-container">
-                    <img src="./Assets/nycSkyline.jpg" object-fit="cover" class="slide" width="33.3333%" height="600"/>
+                    <img src="./Assets/nycSkyline.jpg" class="slide" width="33.3333%" height="700"/>
                         <figcaption>These are placeholder images. 
                             <br>When I have actual projects in my porfolio,</br>
                             Relevant images will go here.
                         </figcaption>
-                    <img src="./Assets/codelaptop.jpg" class="slide" width="33.3333%" height="600"/>
-                    <img src="./Assets/NUlogo.gif" class="slide"  width="33.3333%" height="600"/>
+                    <img src="./Assets/codelaptop.jpg" class="slide" width="33.3333%" height="700"/>
+                    <img src="./Assets/NUlogo.gif" class="slide"  width="33.3333%" height="700"/>
                 </div>
         </div>
 
@@ -52,54 +50,61 @@
 
         <!-- Portfolio -->
 
-            <h1 class="sectiontitle" id="portfolio">PORTFOLIO</h1>
+            <section id="portfolio">
 
-            <container id="projects">
+                <h1 class="sectiontitle">PORTFOLIO</h1>
 
-                <div class="card">
-                    <h3>Project 1</h3>
-                </div>
+                <container id="projects">
 
-                <div class="card">
-                    <h3>Project 2</h3>
-                </div>
-    
-                <div class="card">
-                    <h3>Project 3</h3>
-                </div>
-                
-                <div class="card">
-                    <h3>Project 4</h3>
-                </div>
-                
-                <div class="card">
-                    <h3>Project 5</h3>
-                </div>
+                    <div class="card">
+                        <h3>Project 1</h3>
+                    </div>
 
-                <div class="card">
-                    <h3>Project 6</h3>
-                </div>
-            </container>
-    
+                    <div class="card">
+                        <h3>Project 2</h3>
+                    </div>
         
-        <!--About-->
+                    <div class="card">
+                        <h3>Project 3</h3>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Project 4</h3>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Project 5</h3>
+                    </div>
+
+                    <div class="card">
+                        <h3>Project 6</h3>
+                    </div>
+
+                </container>
+
+            </section>
+
+        
+        <!-- About-->
             <section id="about">
 
                 <h1 class="sectiontitle">ABOUT</h1>
 
-                <p>Matthew Wagner is an aspiring web developer currently enrolled in the
+                <p class="info-text">Matthew Wagner is an aspiring web developer currently enrolled in the
                     coding Bootcamp at Northwestern University. He is expected to complete
                     the bootcamp in July of 2023. He currently resides in Brooklyn, NY.</p>
 
-            </section>
+            </section> 
 
         <!--Contact-->
         <footer id="contact">
-    
-            <p>Matthew Wagner is an aspiring web developer currently enrolled in the
-                coding Bootcamp at Northwestern University. He is expected to complete
-                the bootcamp in July of 2023. He currently resides in Brooklyn, NY.</p>
-    
+            <h2 class="sectiontitle">CONTACT</h2>
+            <p class="info-text">E-Mail: <a href="matthewwagner@outlook.com">matthewwagner@outlook.com</a> | Phone: 773-510-0932</p>
+            <div id="socialmedia-icons">
+                <a href="https://github.com/mattwagner28"><img src="./Assets/GitHub-Mark.png" width="50px" height="50px"></a>
+                <a href="https://www.linkedin.com/in/matthewtwagner"><img src="./Assets/linkedin-mark.png" width="50px" height="50px"></a>
+                <a href="https://www.instagram.com/matt_wagner_/"><img src="./Assets/Instagram_icon.png.webp" width="50px" height="50px"></a>
+            </div>
         </footer>
 
     </main>
